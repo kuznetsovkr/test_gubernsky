@@ -57,7 +57,7 @@ const Register = ({ onLoginClick }) => {
     return (
         <div>
             <p style={{fontSize: "32px", fontWeight: "500", textAlign: "center"}}>Регистрация</p>
-            <form style={{padding: '10px 0', height: "200px"}} onSubmit={handleRegister}>
+            <form style={{padding: '10px 0', height: "230px"}} onSubmit={handleRegister}>
                 <div>
                     <input
                         type="email"
